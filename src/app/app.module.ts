@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { StartComponent } from './component/start/start.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { QrComponent } from './component/qr/qr.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StartComponent
+    StartComponent,
+    QrComponent
   ],
   imports: [
     BrowserModule,
