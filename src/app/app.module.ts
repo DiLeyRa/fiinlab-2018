@@ -10,26 +10,21 @@ import { DreamRegisterComponent } from './components/dream-register/dream-regist
 import { SubmitComponent } from './components/submit/submit.component';
 import { Submit2Component } from './components/submit2/submit2.component';
 
-import { StartComponent } from './component/start/start.component';
+import { StartComponent } from './components/start/start.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { QrComponent } from './component/qr/qr.component';
+import { QrComponent } from './components/qr/qr.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-
     DreamComponent,
     DreamStatusComponent,
-    DreamRegisterComponent
-
-
+    DreamRegisterComponent,
     SubmitComponent,
-    Submit2Component
-
+    Submit2Component,
     StartComponent,
     QrComponent
-
   ],
   imports: [
     BrowserModule,
